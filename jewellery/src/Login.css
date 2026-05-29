@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(246, 239, 239);
+}
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.title {
+    color:rgb(225, 198, 42);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.phone-input {
+    padding: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+.otp-button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(206, 179, 25);
+    border: none;
+    cursor: pointer;
+}
