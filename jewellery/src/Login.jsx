@@ -68,10 +68,12 @@ function Login() {
             } 
                 {
                     showOTP &&(
-                        <div>
-                        <input type="text" placeholder="Enter OTP" maxLength={6} value={otp} onChange={(e)=>setOtp(e.target.value)} />
-                        <button onClick={resendOTP}>Resend OTP</button>
-                        <button onClick={submitOTP}>Submit OTP</button>
+                        <div className = "otp-section">
+                        <input className = "otp-input" type="text" placeholder="Enter OTP" maxLength={6} value={otp} onChange={(e)=>setOtp(e.target.value)} />
+                        <div className="otp-actions">
+                        <button className="resend-btn"onClick={resendOTP}>Resend OTP</button>
+                        <button className="submit-btn"onClick={submitOTP}>Submit OTP</button>
+                        </div>
                         </div>
                     )
                 }
